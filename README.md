@@ -23,6 +23,8 @@ Create a folder and put the video inside. This way files for each scene will be 
 
 ```
 python3 /home/pytholic/Desktop/Projects/uav_mapping/instant-ngp/scripts/colmap2nerf.py --video_in elevator.MOV --video_fps 10 --run_colmap --aabb_scale 16
+
+python3 /home/pytholic/Desktop/Projects/uav_mapping/instant-ngp/scripts/colmap2nerf.py --images <img_dir> --run_colmap --aabb_scale 16
 ```
 
 **Run nerf**
